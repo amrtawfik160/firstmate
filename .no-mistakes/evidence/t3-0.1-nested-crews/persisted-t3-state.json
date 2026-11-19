@@ -1,0 +1,270 @@
+[
+  {
+    "kind": "thread",
+    "title": "Captain validation",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:7890e699-89e6-4914-a290-94ba0c03fbdd",
+      "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+      "title": "Captain validation",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol"
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "main",
+      "worktreePath": null,
+      "pullRequests": [],
+      "activeProviderThreadId": null,
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:7890e699-89e6-4914-a290-94ba0c03fbdd"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:19:33.861Z",
+      "updatedAt": "2026-11-19T19:19:33.895Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": null,
+      "deletedAt": null
+    }
+  },
+  {
+    "kind": "thread",
+    "title": "ws/checkout \u00b7 fm-linked",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:d9c160cc-dfed-449e-8ac3-9ee5cf01fbdd",
+      "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+      "title": "ws/checkout \u00b7 fm-linked",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol"
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "fm/linked",
+      "worktreePath": "{run-worktree}/.tmp-t3-validation/linked",
+      "pullRequests": [],
+      "activeProviderThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Amcp%253Ad9c160cc-dfed-449e-8ac3-9ee5cf01fbdd%3Aordinal%3A1",
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:d9c160cc-dfed-449e-8ac3-9ee5cf01fbdd"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:19:34.200Z",
+      "updatedAt": "2026-11-19T19:23:44.988Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": "2026-11-19T19:23:44.988Z",
+      "opens": {
+        "openedAt": 1795116020656,
+        "score": 1,
+        "picks": []
+      },
+      "deletedAt": null
+    }
+  },
+  {
+    "kind": "thread",
+    "title": "fm-plain",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:08e72e4d-efcf-4908-86ca-82a10f0d843b",
+      "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+      "title": "fm-plain",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol"
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "fm/plain",
+      "worktreePath": "{run-worktree}/.tmp-t3-validation/plain",
+      "pullRequests": [],
+      "activeProviderThreadId": null,
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:08e72e4d-efcf-4908-86ca-82a10f0d843b"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:19:34.473Z",
+      "updatedAt": "2026-11-19T19:19:34.483Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": null,
+      "deletedAt": null
+    }
+  },
+  {
+    "kind": "thread",
+    "title": "fm-unreadable",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:8c5fa9cc-04af-40ab-9db3-e3de8fac56dc",
+      "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+      "title": "fm-unreadable",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol"
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "fm/unreadable",
+      "worktreePath": "{run-worktree}/.tmp-t3-validation/unreadable",
+      "pullRequests": [],
+      "activeProviderThreadId": null,
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:8c5fa9cc-04af-40ab-9db3-e3de8fac56dc"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:19:34.760Z",
+      "updatedAt": "2026-11-19T19:19:34.773Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": null,
+      "deletedAt": null
+    }
+  },
+  {
+    "kind": "thread",
+    "title": "Control launch with message",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:370fd859-31c4-4042-9907-93f8c4f38a1d",
+      "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+      "title": "Control launch with message",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol"
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "main",
+      "worktreePath": null,
+      "pullRequests": [],
+      "activeProviderThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Amcp%253A370fd859-31c4-4042-9907-93f8c4f38a1d%3Aordinal%3A1",
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:370fd859-31c4-4042-9907-93f8c4f38a1d"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:22:45.728Z",
+      "updatedAt": "2026-11-19T19:23:44.988Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": "2026-11-19T19:23:44.988Z",
+      "opens": {
+        "openedAt": 1795116422206,
+        "score": 1,
+        "picks": []
+      },
+      "deletedAt": null
+    }
+  },
+  {
+    "kind": "thread",
+    "title": "current API validation",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:05bd4d3d-3140-413d-ad70-0b55bdfc34ac",
+      "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+      "title": "current API validation",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol"
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "main",
+      "worktreePath": null,
+      "pullRequests": [],
+      "activeProviderThreadId": null,
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:05bd4d3d-3140-413d-ad70-0b55bdfc34ac"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:25:00.684Z",
+      "updatedAt": "2026-11-19T19:25:00.727Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": null,
+      "deletedAt": null
+    }
+  },
+  {
+    "kind": "message",
+    "title": "Control launch with message",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:370fd859-31c4-4042-9907-93f8c4f38a1d",
+      "threadId": "mcp:370fd859-31c4-4042-9907-93f8c4f38a1d",
+      "runId": "run:thread:mcp%3A370fd859-31c4-4042-9907-93f8c4f38a1d:ordinal:1",
+      "nodeId": "node:run:run%3Athread%3Amcp%253A370fd859-31c4-4042-9907-93f8c4f38a1d%3Aordinal%3A1:root",
+      "role": "user",
+      "text": "Reply only with ACK. Do not use tools or change files.\n",
+      "attachments": [],
+      "streaming": false,
+      "createdAt": "2026-11-19T19:22:45.735Z",
+      "updatedAt": "2026-11-19T19:22:45.735Z"
+    }
+  },
+  {
+    "kind": "message",
+    "title": "ws/checkout \u00b7 fm-linked",
+    "persisted": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "message:mcp:client%3Af784d8b6-f4d3-4a9d-9da8-f530f4d77694:thread-send:validation-delayed-send",
+      "threadId": "mcp:d9c160cc-dfed-449e-8ac3-9ee5cf01fbdd",
+      "runId": "run:thread:mcp%3Ad9c160cc-dfed-449e-8ac3-9ee5cf01fbdd:ordinal:1",
+      "nodeId": "node:run:run%3Athread%3Amcp%253Ad9c160cc-dfed-449e-8ac3-9ee5cf01fbdd%3Aordinal%3A1:root",
+      "role": "user",
+      "text": "Reply only with ACK. Do not use tools or change files.",
+      "attachments": [],
+      "streaming": false,
+      "createdAt": "2026-11-19T19:22:46.208Z",
+      "updatedAt": "2026-11-19T19:22:46.208Z"
+    }
+  }
+]

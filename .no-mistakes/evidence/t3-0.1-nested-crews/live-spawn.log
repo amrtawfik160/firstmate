@@ -1,0 +1,4 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home {run-worktree}/.tmp-t3-validation/lab-home
+warn: no registry at {run-worktree}/.tmp-t3-validation/lab-home/data/projects.md; defaulting project to no-mistakes off
+warning: could not confirm that {run-worktree}/.tmp-t3-validation/provider-home/.codex/config.toml trusts {run-worktree}/.tmp-t3-validation/project; Codex ignores an untrusted project's .codex/config.toml, so this T3 Codex thread would run without FM_TASK_ID, FM_TASK_INBOX, GOTMPDIR, and the core.hooksPath push guard Firstmate writes there; trust the project in the Codex configuration T3 uses ([projects."<main checkout>"] trust_level = "trusted", see docs/t3code-backend.md#setup)
+fm-t3-mcp: T3 instance 'codex' cannot run threads: Codex CLI is not authenticated. Run `codex login` with CODEX_HOME set to "{run-worktree}/.tmp-t3-validation/provider-home/.codex" and try again. Provider is not authenticated.

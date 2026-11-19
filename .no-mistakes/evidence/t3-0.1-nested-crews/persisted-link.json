@@ -1,0 +1,71 @@
+{
+  "thread": {
+    "createdBy": "agent",
+    "creationSource": "mcp",
+    "id": "mcp:360244a6-f27f-446e-973f-4493224657c5",
+    "projectId": "mcp:27499a3c-5d28-4f0d-80e9-efc86862499d",
+    "title": "ws/checkout \u00b7 fm-linked",
+    "providerInstanceId": "codex",
+    "modelSelection": {
+      "instanceId": "codex",
+      "model": "gpt-6.2-sol"
+    },
+    "runtimeMode": "full-access",
+    "interactionMode": "default",
+    "branch": "fm/lab",
+    "worktreePath": "{run-worktree}/.t3-validation/worker",
+    "pullRequests": [],
+    "activeProviderThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Amcp%253A360244a6-f27f-446e-973f-4493224657c5%3Aordinal%3A1",
+    "lineage": {
+      "parentThreadId": null,
+      "relationshipToParent": null,
+      "rootThreadId": "mcp:360244a6-f27f-446e-973f-4493224657c5"
+    },
+    "forkedFrom": null,
+    "createdAt": "2026-11-19T19:40:43.940Z",
+    "updatedAt": "2026-11-19T19:41:10.243Z",
+    "archivedAt": null,
+    "settledOverride": null,
+    "settledAt": null,
+    "snoozedUntil": null,
+    "snoozedAt": null,
+    "lastVisitedAt": "2026-11-19T19:41:10.243Z",
+    "opens": {
+      "openedAt": 1795117360630,
+      "score": 1,
+      "picks": []
+    },
+    "deletedAt": null
+  },
+  "messages": [
+    {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "message:mcp:client%3Aa9c22718-2fa9-4e8a-ae4a-e13d0c6d6e3d:thread-send:nested-crew-lab",
+      "threadId": "mcp:360244a6-f27f-446e-973f-4493224657c5",
+      "runId": "run:thread:mcp%3A360244a6-f27f-446e-973f-4493224657c5:ordinal:1",
+      "nodeId": "node:run:run%3Athread%3Amcp%253A360244a6-f27f-446e-973f-4493224657c5%3Aordinal%3A1:root",
+      "role": "user",
+      "text": "Reply with exactly LAB_OK. Do not use any tools or edit files.",
+      "attachments": [],
+      "streaming": false,
+      "createdAt": "2026-11-19T19:41:05.706Z",
+      "updatedAt": "2026-11-19T19:41:05.706Z"
+    },
+    {
+      "createdBy": "agent",
+      "creationSource": "provider",
+      "id": "message:provider:codex:native-item:msg_0a99294e48fa63ab016aff50d60a2c87d2a756c8d040c59986",
+      "threadId": "mcp:360244a6-f27f-446e-973f-4493224657c5",
+      "runId": "run:thread:mcp%3A360244a6-f27f-446e-973f-4493224657c5:ordinal:1",
+      "nodeId": "node:provider:codex:native-item:msg_0a99294e48fa63ab016aff50d60a2c87d2a756c8d040c59986",
+      "role": "assistant",
+      "text": "LAB_OK",
+      "attachments": [],
+      "streaming": false,
+      "createdAt": "2026-11-19T19:41:10.065Z",
+      "updatedAt": "2026-11-19T19:41:10.178Z"
+    }
+  ],
+  "delegationEvents": []
+}

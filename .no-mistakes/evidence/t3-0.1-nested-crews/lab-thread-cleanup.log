@@ -1,0 +1,21 @@
+parent: exit=0
+{"ok":true,"threadId":"mcp:b3934859-0038-4f1f-b6bd-d950dfea39ed","closed":true,"archived":true,"activeRunId":null,"status":"idle"}
+
+linked: exit=0
+{"ok":true,"threadId":"mcp:c5f88f1e-6100-408f-b71f-aae16bdd92d9","closed":true,"archived":true,"activeRunId":null,"status":"completed"}
+
+plain: exit=0
+{"ok":true,"threadId":"mcp:23766232-5e97-4a99-872c-a290e784c9ce","closed":true,"archived":true,"activeRunId":null,"status":"idle"}
+
+unreadable: exit=0
+{"ok":true,"threadId":"mcp:ee6efd3f-48a7-4f45-ba5a-a92887d507d3","closed":true,"archived":true,"activeRunId":null,"status":"idle"}
+
+unreadableExtra: exit=0
+{"ok":true,"threadId":"mcp:c3d16e09-30e1-424b-bf9b-a64a8541861b","closed":true,"archived":true,"activeRunId":null,"status":"idle"}
+
+question: exit=0
+{"ok":true,"threadId":"mcp:30b4b7af-29e3-4ca5-95f0-53eb3af14630","closed":true,"archived":true,"activeRunId":null,"status":"completed"}
+
+control: exit=0
+{"ok":true,"threadId":"mcp:337b1c46-841f-401f-80fa-e4e65267e2f4","closed":true,"archived":true,"activeRunId":null,"status":"completed"}
+

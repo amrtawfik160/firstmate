@@ -1,0 +1,47 @@
+{
+  "orchestration_v2_projection_threads": [
+    {
+      "thread_id": "mcp:16e83bd4-8dfd-449c-97b4-704586cf169a",
+      "project_id": "mcp:2da29ba4-a17d-49f8-9d68-6943d70eab97",
+      "title": "ws/qa \u00b7 fm-linked",
+      "default_provider": "codex",
+      "runtime_mode": "full-access",
+      "interaction_mode": "default",
+      "active_provider_thread_id": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Amcp%253A16e83bd4-8dfd-449c-97b4-704586cf169a%3Aordinal%3A1",
+      "created_at": "2026-11-19T19:54:51.753Z",
+      "updated_at": "2026-11-19T19:55:00.191Z",
+      "archived_at": null,
+      "deleted_at": null,
+      "payload_json": "{\"createdBy\":\"agent\",\"creationSource\":\"mcp\",\"id\":\"mcp:16e83bd4-8dfd-449c-97b4-704586cf169a\",\"projectId\":\"mcp:2da29ba4-a17d-49f8-9d68-6943d70eab97\",\"title\":\"ws/qa \u00b7 fm-linked\",\"providerInstanceId\":\"codex\",\"modelSelection\":{\"instanceId\":\"codex\",\"model\":\"gpt-6.2-sol\"},\"runtimeMode\":\"full-access\",\"interactionMode\":\"default\",\"branch\":\"ws/qa\",\"worktreePath\":\"{run-worktree}/.test-lab/worker\",\"pullRequests\":[],\"activeProviderThreadId\":\"provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Amcp%253A16e83bd4-8dfd-449c-97b4-704586cf169a%3Aordinal%3A1\",\"lineage\":{\"parentThreadId\":null,\"relationshipToParent\":null,\"rootThreadId\":\"mcp:16e83bd4-8dfd-449c-97b4-704586cf169a\"},\"forkedFrom\":null,\"createdAt\":\"2026-11-19T19:54:51.753Z\",\"updatedAt\":\"2026-11-19T19:55:00.191Z\",\"archivedAt\":null,\"settledOverride\":null,\"settledAt\":null,\"snoozedUntil\":null,\"snoozedAt\":null,\"lastVisitedAt\":\"2026-11-19T19:55:00.191Z\",\"opens\":{\"openedAt\":1795118292463,\"score\":1,\"picks\":[]},\"deletedAt\":null}",
+      "provider_instance_id": "codex"
+    }
+  ],
+  "orchestration_v2_projection_messages": [
+    {
+      "message_id": "message:mcp:client%3Abdbd1b61-c59e-49de-bbf7-9037748bdbc6:thread-send:qa-linked-turn",
+      "thread_id": "mcp:16e83bd4-8dfd-449c-97b4-704586cf169a",
+      "run_id": "run:thread:mcp%3A16e83bd4-8dfd-449c-97b4-704586cf169a:ordinal:1",
+      "node_id": "node:run:run%3Athread%3Amcp%253A16e83bd4-8dfd-449c-97b4-704586cf169a%3Aordinal%3A1:root",
+      "role": "user",
+      "streaming": 0,
+      "created_at": "2026-11-19T19:54:52.941Z",
+      "updated_at": "2026-11-19T19:54:52.941Z",
+      "payload_json": "{\"createdBy\":\"agent\",\"creationSource\":\"mcp\",\"id\":\"message:mcp:client%3Abdbd1b61-c59e-49de-bbf7-9037748bdbc6:thread-send:qa-linked-turn\",\"threadId\":\"mcp:16e83bd4-8dfd-449c-97b4-704586cf169a\",\"runId\":\"run:thread:mcp%3A16e83bd4-8dfd-449c-97b4-704586cf169a:ordinal:1\",\"nodeId\":\"node:run:run%3Athread%3Amcp%253A16e83bd4-8dfd-449c-97b4-704586cf169a%3Aordinal%3A1:root\",\"role\":\"user\",\"text\":\"Reply exactly QA_WORKER_COMPLETE. Do not use any tools or modify any files.\",\"attachments\":[],\"streaming\":false,\"createdAt\":\"2026-11-19T19:54:52.941Z\",\"updatedAt\":\"2026-11-19T19:54:52.941Z\"}",
+      "search_text": null
+    },
+    {
+      "message_id": "message:provider:codex:native-item:msg_05363c59ea13fc15016aff5413eff087d295bde689b4300561",
+      "thread_id": "mcp:16e83bd4-8dfd-449c-97b4-704586cf169a",
+      "run_id": "run:thread:mcp%3A16e83bd4-8dfd-449c-97b4-704586cf169a:ordinal:1",
+      "node_id": "node:provider:codex:native-item:msg_05363c59ea13fc15016aff5413eff087d295bde689b4300561",
+      "role": "assistant",
+      "streaming": 0,
+      "created_at": "2026-11-19T19:54:59.965Z",
+      "updated_at": "2026-11-19T19:55:00.067Z",
+      "payload_json": "{\"createdBy\":\"agent\",\"creationSource\":\"provider\",\"id\":\"message:provider:codex:native-item:msg_05363c59ea13fc15016aff5413eff087d295bde689b4300561\",\"threadId\":\"mcp:16e83bd4-8dfd-449c-97b4-704586cf169a\",\"runId\":\"run:thread:mcp%3A16e83bd4-8dfd-449c-97b4-704586cf169a:ordinal:1\",\"nodeId\":\"node:provider:codex:native-item:msg_05363c59ea13fc15016aff5413eff087d295bde689b4300561\",\"role\":\"assistant\",\"text\":\"QA_WORKER_COMPLETE\",\"attachments\":[],\"streaming\":false,\"createdAt\":\"2026-11-19T19:54:59.965Z\",\"updatedAt\":\"2026-11-19T19:55:00.067Z\"}",
+      "search_text": null
+    }
+  ],
+  "orchestration_v2_events": [],
+  "delegatedFrom_occurrences": 0
+}

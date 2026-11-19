@@ -1,0 +1,74 @@
+[
+  {
+    "server": "0.1.10",
+    "generation": "current",
+    "launched": {
+      "ok": true,
+      "threadId": "mcp:05bd4d3d-3140-413d-ad70-0b55bdfc34ac",
+      "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+      "instanceId": "codex",
+      "model": "gpt-6.2-sol",
+      "runId": null,
+      "status": "idle",
+      "environmentId": "b402be37-ab12-4738-87aa-851b740765b4",
+      "origin": "http://127.0.0.1:18749",
+      "serverVersion": "0.1.10"
+    },
+    "requests": {
+      "ok": true,
+      "threadId": "mcp:05bd4d3d-3140-413d-ad70-0b55bdfc34ac",
+      "pendingRequestCount": 0,
+      "questions": [],
+      "approvals": 0,
+      "signature": "q:;a:0"
+    },
+    "pending": {
+      "requestIds": []
+    },
+    "read": {
+      "code": "invalid_request",
+      "message": "T3 t3_pending_request failed: The pending user-input request was not found."
+    },
+    "respond": {
+      "exit": 3,
+      "stdout": "{\"ok\":false,\"error\":{\"code\":\"invalid_request\",\"message\":\"T3 t3_pending_request failed: The pending user-input request was not found.\",\"tool\":\"t3_pending_request\"}}\n",
+      "stderr": "fm-t3-mcp: T3 t3_pending_request failed: The pending user-input request was not found.\n"
+    }
+  },
+  {
+    "server": "0.0.46-nightly.20261010.2935",
+    "generation": "legacy",
+    "launched": {
+      "ok": true,
+      "threadId": "mcp:41547846-acff-4e85-bc90-a37933459ce5",
+      "projectId": "mcp:861d3c38-82dd-4451-a867-12860ab70977",
+      "instanceId": "codex",
+      "model": "gpt-6.2-sol",
+      "runId": null,
+      "status": "idle",
+      "environmentId": "fc2d87d7-5014-496c-80e9-bb35c828caae",
+      "origin": "http://127.0.0.1:18751",
+      "serverVersion": "0.0.46-nightly.20261010.2935"
+    },
+    "requests": {
+      "ok": true,
+      "threadId": "mcp:41547846-acff-4e85-bc90-a37933459ce5",
+      "pendingRequestCount": 0,
+      "questions": [],
+      "approvals": 0,
+      "signature": "q:;a:0"
+    },
+    "pending": {
+      "requestIds": []
+    },
+    "read": {
+      "code": "invalid_request",
+      "message": "T3 t3_pending_request_read failed: The pending user-input request was not found."
+    },
+    "respond": {
+      "exit": 3,
+      "stdout": "{\"ok\":false,\"error\":{\"code\":\"invalid_request\",\"message\":\"T3 t3_pending_request_respond failed: The pending user-input request was not found.\",\"tool\":\"t3_pending_request_respond\"}}\n",
+      "stderr": "fm-t3-mcp: T3 t3_pending_request_respond failed: The pending user-input request was not found.\n"
+    }
+  }
+]

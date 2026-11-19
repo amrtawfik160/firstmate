@@ -1,0 +1,10 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home {run-worktree}/.t3-validation/fleet
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+warn: no registry at {run-worktree}/.t3-validation/fleet/data/projects.md; defaulting project to no-mistakes off
+warning: could not confirm that ~/.codex/config.toml trusts {run-worktree}/.t3-validation/project; Codex ignores an untrusted project's .codex/config.toml, so this T3 Codex thread would run without FM_TASK_ID, FM_TASK_INBOX, GOTMPDIR, and the core.hooksPath push guard Firstmate writes there; trust the project in the Codex configuration T3 uses ([projects."<main checkout>"] trust_level = "trusted", see docs/t3code-backend.md#setup)
+A new version of treehouse is available: v2.0.1 → v3.1.8
+Run "treehouse update" to update
+
+🌳 Setting up worktree...
+🌳 Leased worktree at ~/.no-mistakes/worktrees/bf438e47688f/01M7TKP2V3AQ13XY97XA62WB2W/.t3-validation/pool/.treehouse/project-d16c4d/1/project. Run 'treehouse return ~/.no-mistakes/worktrees/bf438e47688f/01M7TKP2V3AQ13XY97XA62WB2W/.t3-validation/pool/.treehouse/project-d16c4d/1/project' to release it.
+spawned titlebranch harness=codex kind=scout window=fm-titlebranch worktree={run-worktree}/.t3-validation/pool/.treehouse/project-d16c4d/1/project

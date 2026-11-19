@@ -1,0 +1,15 @@
+fm-gate-refuse: gate agent lifecycle permitted only against lab home {run-worktree}/.tmp-t3-qa/home
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+●  WATCHER DOWN - SUPERVISION IS OFF
+●  1 task(s) in flight, but no live watcher process holds this home lock (last beat: 84s ago).
+●  Trust the emitted supervision protocol for this harness; do not use shell & for watcher repair.
+●  This is a supervision warning only; the guarded operation WILL still run.
+●  repair missing watcher supervision with a foreground checkpoint: bin/fm-watch-checkpoint.sh --seconds 180.
+●━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+warning: could not confirm that ~/.codex/config.toml trusts {run-worktree}/.tmp-t3-qa/project; Codex ignores an untrusted project's .codex/config.toml, so this T3 Codex thread would run without FM_TASK_ID, FM_TASK_INBOX, GOTMPDIR, and the core.hooksPath push guard Firstmate writes there; trust the project in the Codex configuration T3 uses ([projects."<main checkout>"] trust_level = "trusted", see docs/t3code-backend.md#setup)
+A new version of treehouse is available: v2.0.1 → v3.1.8
+Run "treehouse update" to update
+
+🌳 Setting up worktree...
+🌳 Leased worktree at ~/.no-mistakes/worktrees/bf438e47688f/01M7TKP2V3AQ13XY97XA62WB2W/.tmp-t3-qa/pool/.treehouse/project-d3d827/2/project. Run 'treehouse return ~/.no-mistakes/worktrees/bf438e47688f/01M7TKP2V3AQ13XY97XA62WB2W/.tmp-t3-qa/pool/.treehouse/project-d3d827/2/project' to release it.
+spawned t3qaplain harness=codex kind=scout window=fm-t3qaplain worktree={run-worktree}/.tmp-t3-qa/pool/.treehouse/project-d3d827/2/project

@@ -1,0 +1,105 @@
+page:
+  title: Nested crews validation / ws/checkout · fm-linked - T3 Code (Beta)
+  refs: 94
+snapshot:
+uid=g12:6_0 RootWebArea "Nested crews validation / ws/checkout · fm-linked - T3 Code (Beta)" url="http://127.0.0.1:18951/82cfb96e-23df-455d-a6ab-9fe289b571ed/mcp%3A360244a6-f27f-446e-973f-4493224657c5"
+  uid=g12:7_0 navigation "Threads"
+    uid=g12:7_1 link "T3 Code home" url="http://127.0.0.1:18951/"
+      uid=g12:7_2 image "T3"
+      uid=g12:7_3 "Code"
+    uid=g12:7_4 combobox "Search threads" autocomplete="list" expandable haspopup="listbox"
+    uid=g12:7_5 combobox "Filter threads by project" expandable haspopup="dialog"
+    uid=g12:7_6 button "Add project"
+    uid=g12:7_7 button "New thread"
+    uid=g12:7_8 generic
+      uid=g12:8_0 button "Pending question validation, Done, Nested crews validation"
+        uid=g12:8_1 button "Snooze thread" expandable haspopup="menu"
+        uid=g12:8_2 button "Settle thread"
+      uid=g12:7_9 button "ws/checkout · fm-linked, Nested crews validation"
+        uid=g12:7_10 button "Snooze thread" expandable haspopup="menu"
+        uid=g12:7_11 button "Settle thread"
+      uid=g12:7_12 button "fm-missing, Nested crews validation"
+        uid=g12:7_13 button "Snooze thread" expandable haspopup="menu"
+        uid=g12:7_14 button "Settle thread"
+      uid=g12:7_15 button "fm-plain, Nested crews validation"
+        uid=g12:7_16 button "Snooze thread" expandable haspopup="menu"
+        uid=g12:7_17 button "Settle thread"
+      uid=g12:7_18 button "Firstmate synthetic captain, Nested crews validation"
+        uid=g12:7_19 button "Snooze thread" expandable haspopup="menu"
+        uid=g12:7_20 button "Settle thread"
+      uid=g12:7_22 button "Settled 0" expandable
+      uid=g12:7_23 status atomic live="assertive" relevant="additions text"
+    uid=g12:7_24 button "Settings"
+    uid=g12:7_25 button "Pull requests"
+    uid=g12:7_26 button "Usage"
+    uid=g12:7_27 button "Resize Sidebar"
+  uid=g12:7_28 main
+    uid=g12:10_0 button "Toggle thread details panel" pressed
+    uid=g12:10_1 button "Toggle terminal drawer"
+    uid=g12:10_2 button "Toggle right panel"
+    uid=g12:10_3 navigation "Thread breadcrumb"
+      uid=g12:10_4 button "New thread in Nested crews validation"
+      uid=g12:10_5 button "Thread actions for ws/checkout · fm-linked" haspopup="menu"
+    uid=g12:10_6 region "Conversation"
+      uid=g12:10_7 generic live="polite" relevant="additions text"
+      uid=g12:10_8 generic live="polite" relevant="additions text"
+      uid=g12:10_9 generic
+        uid=g12:10_10 heading "Agent" level="3"
+        uid=g12:10_11 button "Agent Reply with exactly LAB_OK. Do not use any tools or edit files." expandable
+        uid=g12:10_12 region "Activity"
+          uid=g12:10_13 button "MCP client for `aside` failed to start: MCP startup failed: No such file or directory (os error 2)" expandable
+        uid=g12:10_14 region "Activity"
+          uid=g12:10_15 button "MCP client for `agentation` failed to start: MCP startup failed: No such file or directory (os error 2)" expandable
+        uid=g12:10_16 region "Activity"
+          uid=g12:10_17 button "MCP client for `telegram-mcp` failed to start: MCP startup failed: No such file or directory (os error 2)" expandable
+        uid=g12:10_18 region "Activity"
+          uid=g12:10_19 button "MCP client for `node_repl` failed to start: MCP startup failed: No such file or directory (os error 2)" expandable
+        uid=g12:10_20 region "Activity"
+          uid=g12:10_21 button "MCP client for `mcp_server_mysql` failed to start: MCP startup failed: No such file or directory (os error 2)" expandable
+        uid=g12:10_22 region "Activity"
+          uid=g12:10_23 button "MCP client for `jean` failed to start: MCP startup failed: No such file or directory (os error 2)" expandable
+        uid=g12:10_24 region "Activity"
+          uid=g12:10_25 button "The linear MCP server is not logged in. Run `codex mcp login linear`." expandable
+        uid=g12:10_26 region "Activity"
+          uid=g12:10_27 button "The sentry MCP server is not logged in. Run `codex mcp login sentry`." expandable
+        uid=g12:10_28 region "Activity"
+          uid=g12:10_29 button "The composio MCP server is not logged in. Run `codex mcp login composio`." expandable
+        uid=g12:10_30 heading "T3 Code" level="3"
+        uid=g12:10_31 "LAB_OK"
+        uid=g12:10_32 button "Copy message"
+        uid=g12:10_33 button "Fork from this response"
+        uid=g12:10_34 button "Reply to this response"
+        uid=g12:10_35 "7:41 PM"
+    uid=g12:10_36 generic
+      uid=g12:10_37 form
+        uid=g12:10_38 status atomic live="polite" relevant="additions text"
+        uid=g12:10_39 textbox "Message ws/checkout · fm-linked" autocomplete="list" focusable focused haspopup="listbox" multiline value="
+"
+          uid=g12:10_40 paragraph
+        uid=g12:10_41 "Ask anything. @ files, $ skills, / commands"
+        uid=g12:10_42 button "Attach files"
+        uid=g12:10_43 button "GPT-6.2-Sol, Low Fast · Standard" expandable haspopup="dialog"
+        uid=g12:10_44 button "Start voice input"
+        uid=g12:10_45 button "Submit message" disableable disabled
+    uid=g12:10_46 region "Thread details"
+      uid=g12:10_47 generic
+        uid=g12:10_48 region "Workspace"
+          uid=g12:10_49 "ubuntu-amr01"
+          uid=g12:10_50 button "Open in editor" disableable disabled
+          uid=g12:10_51 button "Choose editor" expandable haspopup="menu"
+          uid=g12:10_52 button "Add project script"
+        uid=g12:10_53 region "Version Control"
+          uid=g12:10_54 combobox "Branch: fm/lab" expandable haspopup="dialog"
+          uid=g12:11_0 button "Publish repository"
+          uid=g12:10_56 button "Git action options" expandable haspopup="menu"
+          uid=g12:10_57 button "Changes vs master +0 -0"
+  uid=g12:7_64 generic live="polite" relevant="additions text"
+  uid=g12:7_66 button "Toggle main sidebar" pressed
+  uid=g12:7_67 region "Notifications" live="polite" relevant="additions text"
+  uid=g12:7_68 region "Notifications" live="polite" relevant="additions text"
+help[5]:
+  Run `chrome-devtools-axi fill @g12:7_4 "text"` to fill the "Search threads" field
+  Run `chrome-devtools-axi click @g12:7_6` to click the "Add project" button
+  Run `chrome-devtools-axi click @g12:7_1` to click the "T3 Code home" link
+  Run `chrome-devtools-axi scroll down` to scroll down
+  Use `chrome-devtools-axi eval <expr>` for JS expressions. For multi-statement code, pass a function: `eval "() => { ...; return result }"`

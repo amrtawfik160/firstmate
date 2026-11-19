@@ -1,0 +1,4 @@
+exit=0
+stdout={"ok":true,"threadId":"mcp:c3d16e09-30e1-424b-bf9b-a64a8541861b","projectId":"mcp:fe6478cc-810b-427e-b04f-09f5686c964e","instanceId":"codex","model":"gpt-6.2-sol","runId":null,"status":"idle","environmentId":"0aab0b59-1774-4635-8970-f6371b063380","origin":"http://127.0.0.1:18741","serverVersion":"0.1.10"}
+
+stderr=fm-t3-mcp: warning: launching without a delegatedFrom link, since thread mcp:absent-synthetic-parent could not be read (T3 t3_thread_read failed: Thread mcp:absent-synthetic-parent is no longer available.)

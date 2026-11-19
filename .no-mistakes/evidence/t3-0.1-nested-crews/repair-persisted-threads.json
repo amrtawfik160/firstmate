@@ -1,0 +1,49 @@
+{
+  "columns": [
+    "thread_id",
+    "project_id",
+    "title",
+    "default_provider",
+    "runtime_mode",
+    "interaction_mode",
+    "active_provider_thread_id",
+    "created_at",
+    "updated_at",
+    "archived_at",
+    "deleted_at",
+    "payload_json",
+    "provider_instance_id"
+  ],
+  "rows": [
+    [
+      "mcp:06c7ca21-5308-41b2-b270-8467a04c3dc8",
+      "mcp:c70bd0a1-71db-4d8d-9cc5-3e85e24c5532",
+      "Synthetic captain",
+      "codex",
+      "full-access",
+      "default",
+      null,
+      "2026-11-19T19:53:01.997Z",
+      "2026-11-19T19:53:03.078Z",
+      "2026-11-19T19:53:03.078Z",
+      null,
+      "{\"createdBy\":\"agent\",\"creationSource\":\"mcp\",\"id\":\"mcp:06c7ca21-5308-41b2-b270-8467a04c3dc8\",\"projectId\":\"mcp:c70bd0a1-71db-4d8d-9cc5-3e85e24c5532\",\"title\":\"Synthetic captain\",\"providerInstanceId\":\"codex\",\"modelSelection\":{\"instanceId\":\"codex\",\"model\":\"gpt-6.2-sol\"},\"runtimeMode\":\"full-access\",\"interactionMode\":\"default\",\"branch\":\"master\",\"worktreePath\":null,\"pullRequests\":[],\"activeProviderThreadId\":null,\"lineage\":{\"parentThreadId\":null,\"relationshipToParent\":null,\"rootThreadId\":\"mcp:06c7ca21-5308-41b2-b270-8467a04c3dc8\"},\"forkedFrom\":null,\"createdAt\":\"2026-11-19T19:53:01.997Z\",\"updatedAt\":\"2026-11-19T19:53:03.078Z\",\"archivedAt\":\"2026-11-19T19:53:03.078Z\",\"settledOverride\":null,\"settledAt\":null,\"snoozedUntil\":null,\"snoozedAt\":null,\"guestShare\":null,\"lastVisitedAt\":null,\"titleRegeneration\":null,\"deletedAt\":null}",
+      "codex"
+    ],
+    [
+      "mcp:a8c22040-ce05-42d1-be68-24ba64c6e6bd",
+      "mcp:c70bd0a1-71db-4d8d-9cc5-3e85e24c5532",
+      "Synthetic worker",
+      "codex",
+      "full-access",
+      "default",
+      null,
+      "2026-11-19T19:53:02.403Z",
+      "2026-11-19T19:53:02.742Z",
+      "2026-11-19T19:53:02.742Z",
+      null,
+      "{\"createdBy\":\"agent\",\"creationSource\":\"mcp\",\"id\":\"mcp:a8c22040-ce05-42d1-be68-24ba64c6e6bd\",\"projectId\":\"mcp:c70bd0a1-71db-4d8d-9cc5-3e85e24c5532\",\"title\":\"Synthetic worker\",\"providerInstanceId\":\"codex\",\"modelSelection\":{\"instanceId\":\"codex\",\"model\":\"gpt-6.2-sol\"},\"runtimeMode\":\"full-access\",\"interactionMode\":\"default\",\"branch\":null,\"worktreePath\":\"{run-worktree}/.t3-repair/task\",\"pullRequests\":[],\"activeProviderThreadId\":null,\"lineage\":{\"parentThreadId\":null,\"relationshipToParent\":null,\"rootThreadId\":\"mcp:a8c22040-ce05-42d1-be68-24ba64c6e6bd\"},\"forkedFrom\":null,\"createdAt\":\"2026-11-19T19:53:02.403Z\",\"updatedAt\":\"2026-11-19T19:53:02.742Z\",\"archivedAt\":\"2026-11-19T19:53:02.742Z\",\"settledOverride\":null,\"settledAt\":null,\"snoozedUntil\":null,\"snoozedAt\":null,\"guestShare\":null,\"lastVisitedAt\":null,\"titleRegeneration\":null,\"deletedAt\":null}",
+      "codex"
+    ]
+  ]
+}

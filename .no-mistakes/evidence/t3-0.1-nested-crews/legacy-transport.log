@@ -1,0 +1,7 @@
+FM_TEST_BEGIN 2026-11-19T19:44:16Z tests/fm-backend-t3code-live-e2e.test.sh family=live-harness-optin expected_gate_skip=live-capability
+ok - t3code live transport: T3 0.0.46-nightly.20261010.2935 environment c1189759-de31-4ec3-947b-3573dad8dcba passes the gate (telemetry=off)
+FM_TEST_END 2026-11-19T19:44:18Z tests/fm-backend-t3code-live-e2e.test.sh exit=0 duration_ms=2046 gate_skip=false
+FM_TEST_SUMMARY total=1 failed=0 skipped_gate=0 duration_ms=2148
+FM_TEST_SUMMARY_FAMILY family=live-harness-optin count=1 duration_ms=2046 failed=0
+FM_TEST_SLOWEST rank=1 script=tests/fm-backend-t3code-live-e2e.test.sh duration_ms=2046
+{"ok":true,"threadId":"mcp:e8c73472-8daf-4971-8ed1-dba994d894b0","projectId":"mcp:106b8d2e-e742-4b41-a6e6-f4eba64cc08e","instanceId":"codex","model":"gpt-6.2-sol","runId":null,"status":"idle","environmentId":"c1189759-de31-4ec3-947b-3573dad8dcba","origin":"http://127.0.0.1:18952","serverVersion":"0.0.46-nightly.20261010.2935"}

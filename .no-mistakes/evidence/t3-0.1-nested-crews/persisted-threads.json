@@ -1,0 +1,119 @@
+[
+  {
+    "scenario": "linked",
+    "threadId": "mcp:c5f88f1e-6100-408f-b71f-aae16bdd92d9",
+    "title": "ws/synthetic \u00b7 fm-linked",
+    "persistedThread": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:c5f88f1e-6100-408f-b71f-aae16bdd92d9",
+      "projectId": "mcp:fe6478cc-810b-427e-b04f-09f5686c964e",
+      "title": "ws/synthetic \u00b7 fm-linked",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol",
+        "options": []
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "task",
+      "worktreePath": "{run-worktree}/.t3-validation/task",
+      "pullRequests": [],
+      "activeProviderThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Amcp%253Ac5f88f1e-6100-408f-b71f-aae16bdd92d9%3Aordinal%3A1",
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:c5f88f1e-6100-408f-b71f-aae16bdd92d9"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:31:53.275Z",
+      "updatedAt": "2026-11-19T19:32:33.245Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": "2026-11-19T19:32:28.805Z",
+      "deletedAt": null
+    }
+  },
+  {
+    "scenario": "plain",
+    "threadId": "mcp:23766232-5e97-4a99-872c-a290e784c9ce",
+    "title": "fm-plain",
+    "persistedThread": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:23766232-5e97-4a99-872c-a290e784c9ce",
+      "projectId": "mcp:fe6478cc-810b-427e-b04f-09f5686c964e",
+      "title": "fm-plain",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol",
+        "options": []
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "task",
+      "worktreePath": "{run-worktree}/.t3-validation/task",
+      "pullRequests": [],
+      "activeProviderThreadId": null,
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:23766232-5e97-4a99-872c-a290e784c9ce"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:31:54.073Z",
+      "updatedAt": "2026-11-19T19:31:54.083Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": null,
+      "deletedAt": null
+    }
+  },
+  {
+    "scenario": "unreadable",
+    "threadId": "mcp:ee6efd3f-48a7-4f45-ba5a-a92887d507d3",
+    "title": "fm-unreadable",
+    "persistedThread": {
+      "createdBy": "agent",
+      "creationSource": "mcp",
+      "id": "mcp:ee6efd3f-48a7-4f45-ba5a-a92887d507d3",
+      "projectId": "mcp:fe6478cc-810b-427e-b04f-09f5686c964e",
+      "title": "fm-unreadable",
+      "providerInstanceId": "codex",
+      "modelSelection": {
+        "instanceId": "codex",
+        "model": "gpt-6.2-sol",
+        "options": []
+      },
+      "runtimeMode": "full-access",
+      "interactionMode": "default",
+      "branch": "task",
+      "worktreePath": "{run-worktree}/.t3-validation/task",
+      "pullRequests": [],
+      "activeProviderThreadId": null,
+      "lineage": {
+        "parentThreadId": null,
+        "relationshipToParent": null,
+        "rootThreadId": "mcp:ee6efd3f-48a7-4f45-ba5a-a92887d507d3"
+      },
+      "forkedFrom": null,
+      "createdAt": "2026-11-19T19:31:53.663Z",
+      "updatedAt": "2026-11-19T19:31:53.672Z",
+      "archivedAt": null,
+      "settledOverride": null,
+      "settledAt": null,
+      "snoozedUntil": null,
+      "snoozedAt": null,
+      "lastVisitedAt": null,
+      "deletedAt": null
+    }
+  }
+]

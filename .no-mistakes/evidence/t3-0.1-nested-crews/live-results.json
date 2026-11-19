@@ -1,0 +1,27 @@
+{
+  "server": "Real isolated T3 Code 0.1.10 on 127.0.0.1:19371",
+  "provider": "Real Codex gpt-6.2-sol; existing login unchanged",
+  "launches": [
+    {
+      "command": "FM_HOME=<marked disposable home> T3CODE_THREAD_ID=unreadable-synthetic-captain bin/fm-spawn.sh t3qatitled <disposable repository> codex --scout --model gpt-6.2-sol --backend t3code --base-branch ws/qa",
+      "exit": 0,
+      "title": "ws/qa \u00b7 fm-t3qatitled",
+      "status": "completed"
+    },
+    {
+      "command": "FM_HOME=<marked disposable home> T3CODE_THREAD_ID=unreadable-synthetic-captain bin/fm-spawn.sh t3qaplain <disposable repository> codex --scout --model gpt-6.2-sol --backend t3code",
+      "exit": 0,
+      "title": "fm-t3qaplain",
+      "status": "completed"
+    }
+  ],
+  "workspace": "Both thread read-backs name separate leased worktrees inside the disposable pool, outside project root. Both parentThreadId values are null.",
+  "question": "Real T3 MCP launch in plan mode produced color request; Firstmate requests read it, respond sent Blue, worker completed with Blue, requests then returned pendingRequestCount=0.",
+  "legacy_limit": "Installed t3 is 0.1.10. Public GitHub release lookups for v0.0.46 and v0.0.47 both returned HTTP 404. Legacy generation and incomplete tools were exercised only through the existing protocol fake-server suite; these are not live legacy-server evidence.",
+  "cleanup": "All three live threads archived with closed:true and no active run; browser stopped; isolated T3 process exited 130 after intentional TERM; disposable server, credentials, repositories and home removed. Worktree clean.",
+  "targeted_checks": {
+    "tests/fm-t3-mcp.test.sh": 0,
+    "tests/fm-backend-t3code.test.sh": 0,
+    "FM_T3CODE_LIVE_E2E=1 FM_T3CODE_LIVE_TOKEN_FILE=<disposable-token> bash tests/fm-backend-t3code-live-e2e.test.sh": 0
+  }
+}

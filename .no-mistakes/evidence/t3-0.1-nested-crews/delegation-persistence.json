@@ -1,0 +1,129 @@
+{
+  "expectedLinkedCaptain": {
+    "environmentId": "b402be37-ab12-4738-87aa-851b740765b4",
+    "threadId": "mcp:7890e699-89e6-4914-a290-94ba0c03fbdd",
+    "title": "Captain validation"
+  },
+  "observed": [
+    {
+      "case": "linked",
+      "threadId": "mcp:d9c160cc-dfed-449e-8ac3-9ee5cf01fbdd",
+      "title": "ws/checkout \u00b7 fm-linked",
+      "persistedThread": {
+        "createdBy": "agent",
+        "creationSource": "mcp",
+        "id": "mcp:d9c160cc-dfed-449e-8ac3-9ee5cf01fbdd",
+        "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+        "title": "ws/checkout \u00b7 fm-linked",
+        "providerInstanceId": "codex",
+        "modelSelection": {
+          "instanceId": "codex",
+          "model": "gpt-6.2-sol"
+        },
+        "runtimeMode": "full-access",
+        "interactionMode": "default",
+        "branch": "fm/linked",
+        "worktreePath": "{run-worktree}/.tmp-t3-validation/linked",
+        "pullRequests": [],
+        "activeProviderThreadId": "provider-thread:provider:codex:native-thread:pending%3Arun%3Athread%3Amcp%253Ad9c160cc-dfed-449e-8ac3-9ee5cf01fbdd%3Aordinal%3A1",
+        "lineage": {
+          "parentThreadId": null,
+          "relationshipToParent": null,
+          "rootThreadId": "mcp:d9c160cc-dfed-449e-8ac3-9ee5cf01fbdd"
+        },
+        "forkedFrom": null,
+        "createdAt": "2026-11-19T19:19:34.200Z",
+        "updatedAt": "2026-11-19T19:23:44.988Z",
+        "archivedAt": null,
+        "settledOverride": null,
+        "settledAt": null,
+        "snoozedUntil": null,
+        "snoozedAt": null,
+        "lastVisitedAt": "2026-11-19T19:23:44.988Z",
+        "opens": {
+          "openedAt": 1795116020656,
+          "score": 1,
+          "picks": []
+        },
+        "deletedAt": null
+      }
+    },
+    {
+      "case": "plain",
+      "threadId": "mcp:08e72e4d-efcf-4908-86ca-82a10f0d843b",
+      "title": "fm-plain",
+      "persistedThread": {
+        "createdBy": "agent",
+        "creationSource": "mcp",
+        "id": "mcp:08e72e4d-efcf-4908-86ca-82a10f0d843b",
+        "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+        "title": "fm-plain",
+        "providerInstanceId": "codex",
+        "modelSelection": {
+          "instanceId": "codex",
+          "model": "gpt-6.2-sol"
+        },
+        "runtimeMode": "full-access",
+        "interactionMode": "default",
+        "branch": "fm/plain",
+        "worktreePath": "{run-worktree}/.tmp-t3-validation/plain",
+        "pullRequests": [],
+        "activeProviderThreadId": null,
+        "lineage": {
+          "parentThreadId": null,
+          "relationshipToParent": null,
+          "rootThreadId": "mcp:08e72e4d-efcf-4908-86ca-82a10f0d843b"
+        },
+        "forkedFrom": null,
+        "createdAt": "2026-11-19T19:19:34.473Z",
+        "updatedAt": "2026-11-19T19:19:34.483Z",
+        "archivedAt": null,
+        "settledOverride": null,
+        "settledAt": null,
+        "snoozedUntil": null,
+        "snoozedAt": null,
+        "lastVisitedAt": null,
+        "deletedAt": null
+      }
+    },
+    {
+      "case": "unreadable",
+      "threadId": "mcp:8c5fa9cc-04af-40ab-9db3-e3de8fac56dc",
+      "title": "fm-unreadable",
+      "persistedThread": {
+        "createdBy": "agent",
+        "creationSource": "mcp",
+        "id": "mcp:8c5fa9cc-04af-40ab-9db3-e3de8fac56dc",
+        "projectId": "mcp:14ac776d-267b-40b9-bc0f-71da82a22ba8",
+        "title": "fm-unreadable",
+        "providerInstanceId": "codex",
+        "modelSelection": {
+          "instanceId": "codex",
+          "model": "gpt-6.2-sol"
+        },
+        "runtimeMode": "full-access",
+        "interactionMode": "default",
+        "branch": "fm/unreadable",
+        "worktreePath": "{run-worktree}/.tmp-t3-validation/unreadable",
+        "pullRequests": [],
+        "activeProviderThreadId": null,
+        "lineage": {
+          "parentThreadId": null,
+          "relationshipToParent": null,
+          "rootThreadId": "mcp:8c5fa9cc-04af-40ab-9db3-e3de8fac56dc"
+        },
+        "forkedFrom": null,
+        "createdAt": "2026-11-19T19:19:34.760Z",
+        "updatedAt": "2026-11-19T19:19:34.773Z",
+        "archivedAt": null,
+        "settledOverride": null,
+        "settledAt": null,
+        "snoozedUntil": null,
+        "snoozedAt": null,
+        "lastVisitedAt": null,
+        "deletedAt": null
+      }
+    }
+  ],
+  "result": "fail: linked thread has no delegatedFrom field; T3 UI shows no captain link"
+}
